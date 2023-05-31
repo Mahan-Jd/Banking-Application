@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Invalid registration</title>
+<link rel="stylesheet" href="invalid.css" type="text/css">
+<style>
+            body{
+             background-image : url("error.jpg");
+             background-size: auto;
+             background-repeat:no-repeat ;
+             background-size: cover;
+             height: 800px
+    
+            }
+            </style>
+</head>
+<body>
+<h2 id="one">Error in registering the details.Please try again</h2>
+ <div id="register">
+	<form action="/BankingApplication/RegValidation">
+		<label>Accno</label>
+				<input type="text" name="accno" id="textb"
+					placeholder="Enter account number">
+                    <br><br>
+				<label>Name</label>
+				<input type="text" id="textb" name="name" placeholder="Enter the name"><br><br>
+			
+				<label>Password</label>
+				<input type="password" id="textb" name="pass" placeholder="Enter password"><br><br>
+			
+				<label>Email</label>
+				<input type="text"  id="textb" name="email" placeholder="Enter the email"><br><br>
+			
+				<label>Balance</label>
+				<input type="text" id="textb" name="balance"><br><br>
+                <br>
+				<input type="submit"  id="subb" value="register">
+			
+		
+	</form>
+    </div>
+</body>
+</html>

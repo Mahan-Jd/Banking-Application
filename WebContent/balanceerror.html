@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Balance error</title>
+<link rel="stylesheet" href="balance.css">
+<style>
+body {
+	background-image: url("33.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px
+}
+</style>
+</head>
+<body>
+<h1 id="i">Invalid password.Try again.</h1>
+	<div class="container">
+		<video autoplay loop muted plays-inline class="background-clip">
+			<source src="vault.mp4" type="video/mp4">
+		</video>
+	</div>
+	<div id="on">
+		<h1>Invalid password.Try again.</h1>
+		<h2>Kindly enter the password to view balance.</h2>
+	</div>
+	<div id="login">
+		<form action="/BankingApplication/BalValidation">
+
+
+			<label id="e">password</label> <input type="password" id="text"
+				name="pass" placeholder="password"> <br>
+			<br> <input type="submit" id="sub" value="view balance">
+
+		</form>
+	</div>
+</body>
+</html>

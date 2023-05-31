@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Password Error</title>
+<link rel="stylesheet" href="forgot.css">
+<style>
+body {
+	background-image: url("u.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+</style>
+</head>
+<body>
+<div id="three">
+	<h1>Error in reseting the password.Try again</h1>
+	<h3>Enter the following details to reset the password</h3></div>
+	<div id="changename">
+		<form action="/BankingApplication/ForgotPwdVal">
+			<label>Accno</label> <input type="text" name="accno" id="text"
+				placeholder="Account Number"><br>
+			<br> <label>Name</label> <input type="text" name="name"
+				id="text" placeholder="Enter the name"><br>
+			<br> <label>Email</label> <input type="text" name="email"
+				id="text" placeholder="Enter the email"><br>
+			<br> <label>New Password</label> <input type="password"
+				name="np" id="text" placeholder="Enter new password"><br>
+			<br> <label>Confirm Password</label> <input type="password"
+				name="cnp" id="text" placeholder="Enter the new password again"><br>
+			<br> <input type="submit" id="sub" value="Reset Password">
+
+		</form>
+	</div>
+
+</body>
+</html>

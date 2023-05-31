@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: 'Arial';
+    color:#FFFFFF;
+}
+a
+{
+    color: #FFFFFF;
+}
+#login{
+     width: 362px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 70px;
+    background-image: url("4.jpg") ;height: 250px;width: 200px;
+   
+    text-align:center;
+    text-align: center;
+    border-radius: 15px ;
+
+
+}
+#one{
+    color: white;
+    margin-left: 50px;
+    text-align:center;
+    text-align: center;
+}
+#textbox{
+   width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 8px;
+    
+}
+#sub{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-right: 10px;
+    color: black;
+
+
+}

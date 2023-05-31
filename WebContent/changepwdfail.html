@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fail in changing the password</title>
+<link rel="stylesheet" href="cp.css">
+<style>
+body {
+	background-image: url("pk.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px
+}
+</style>
+</head>
+<body>
+	<div id="two">
+		<h2>Failed in changing the password.Try again</h2>
+	</div>
+	<div id="changepass">
+		<form action="/BankingApplication/ChangePwdVal">
+
+			<label>Old password</label> <input type="password" id="text"
+				name="op" placeholder="Enter old password"><br>
+			<br> <label>New password</label> <input type="password"
+				id="text" name="np" placeholder="Enter new password"><br>
+			<br> <label>Confirm password</label> <input type="password"
+				id="text" name="cp" placeholder="Confirm the password"><br>
+			<br> <br> <input type="submit" id="sub"
+				value="change password">
+
+		</form>
+	</div>
+</body>
+</html>

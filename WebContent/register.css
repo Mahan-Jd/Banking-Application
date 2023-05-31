@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Arial';
+    color:#FFFFFF;
+}
+a
+{
+    color: #FFFFFF;
+}
+#register{
+    width: 362px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 70px;
+    background-image: url("4.jpg") ;height: 350px;width: 200px;background-repeat: no-repeat;
+    border-radius: 15px ;
+
+}
+#one{
+    color: white;
+    margin-left: 50px;
+    text-align:center;
+    text-align: center;
+}
+#textb{
+    
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 8px;
+}
+#subb{
+    width: 210px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-right: 9px;
+    color: black;
+
+
+}
